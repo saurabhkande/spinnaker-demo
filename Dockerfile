@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-COPY default.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/conf.d/nginx.conf
 
 RUN mkdir -p /usr/share/nginx/html/path1
 RUN mkdir -p /usr/share/nginx/html/path2
