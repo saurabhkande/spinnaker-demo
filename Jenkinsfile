@@ -1,3 +1,5 @@
+# Pipeline to build and push the docker-image to docker-hub
+
 pipeline { 
  agent any 
 
